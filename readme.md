@@ -1,30 +1,47 @@
 # Project Title
 
-Simple overview of use/purpose.
+Simple Storage Manage App
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+A Simple Storage Manage App based on Pandas and PySide6. Data stored in Microsoft Excel (.xlsx) is for user friendly.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* pandas
+* PySide6
+* openpyxl
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+```
+git clone https://github.com/wspooong/Simple_Storage_Manage_App
+pip install requirements.txt
+```
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+python app.py
 ```
+
+## How To Use
+
+If you have things that you need to track in and out day by day, then this App may be suit for you.
+
+
+### Add Item
+1. Enter Serial Number for item and press *Add item* button or *Enter* key.
+2. If you press *save* button, data will be saved and it will remove from the table. But the data is still in xlsx.
+
+### Generate Report
+1. You can generate Report for specific day.
+
+### Takeout Item
+1. If item needs to be takeout, use Search Area, you can search by Serial Number or date. 
+2. Then select the item needs to takeout, and press *Take Out* button.
 
 ## Help
 
@@ -35,28 +52,11 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
+* Author: Shih-Peng Wen
+* Website: [https://wspooong.com/](https://wspooong.com/)
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
