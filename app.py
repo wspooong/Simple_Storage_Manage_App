@@ -101,7 +101,7 @@ class MainWindow(QWidget):
     def initializeUI(self):
         self.setFixedSize(800, 600)
         self.center()
-        self.setWindowTitle("Simple Warehose Management")
+        self.setWindowTitle("Simple Storage Manage App ver.0.1")
 
         self.initTable()
         self.setUpMainWindow()
