@@ -18,9 +18,9 @@ def load_excel_data():
                         'Serial_Number': str,
                         'Box': int,
                         'Cell': int,
-                        'Place_Date': datetime,
+                        # 'Place_Date': datetime,
                         'Report_Generated': bool,
-                        'Takeout_Date': datetime
+                        # 'Takeout_Date': datetime
                     }
                     )
     df = df.loc[df['Serial_Number'] != "init",].copy().reset_index(drop=True)
