@@ -1,10 +1,28 @@
-# Project Title
+# Simple Storage Manage App
 
-Simple Storage Manage App
+A Simple Storage Manage App based on Pandas and PySide6.
 
 ## Description
 
-A Simple Storage Manage App based on Pandas and PySide6. Data stored in Microsoft Excel (.xlsx) is for user friendly.
+A Simple Storage Manage App based on Pandas and PySide6. 
+
+Data stored in Microsoft Excel (.xlsx) is for user friendly.
+
+### How To Use
+
+If you have things that you need to track in and out day by day, then this App may be suit for you.
+
+
+#### Add Item
+1. Enter Serial Number for item and press *Add item* button or *Enter* key.
+2. If you press *save* button, data will be saved and it will remove from the table. But the data is still in xlsx.
+
+#### Generate Report
+1. You can generate Report for specific day.
+
+#### Takeout Item
+1. If item needs to be takeout, use Search Area, you can search by Serial Number or date. 
+2. Then select the item needs to takeout, and press *Take Out* button.
 
 ## Getting Started
 
@@ -25,29 +43,6 @@ pip install requirements.txt
 
 ```
 python app.py
-```
-
-## How To Use
-
-If you have things that you need to track in and out day by day, then this App may be suit for you.
-
-
-### Add Item
-1. Enter Serial Number for item and press *Add item* button or *Enter* key.
-2. If you press *save* button, data will be saved and it will remove from the table. But the data is still in xlsx.
-
-### Generate Report
-1. You can generate Report for specific day.
-
-### Takeout Item
-1. If item needs to be takeout, use Search Area, you can search by Serial Number or date. 
-2. Then select the item needs to takeout, and press *Take Out* button.
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
 ```
 
 ## Authors
